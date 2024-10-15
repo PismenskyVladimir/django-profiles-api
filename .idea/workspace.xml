@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce7298f4-0950-4b24-bbec-50c0bf448ffa" name="Changes" comment="feat: added UserProfileManager/AUTH_USER_MODE in settings.py/ UserProfile register in admin.py">
-      <change afterPath="$PROJECT_DIR$/profiles_api/urls.py" afterDir="false" />
+    <list default="true" id="ce7298f4-0950-4b24-bbec-50c0bf448ffa" name="Changes" comment="feat: Add HelloApiView, url">
+      <change afterPath="$PROJECT_DIR$/profiles_api/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProfileProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProfileProject/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles_api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/profiles_api/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +76,8 @@
       <workItem from="1728094878492" duration="1536000" />
       <workItem from="1728617298836" duration="77000" />
       <workItem from="1728643552114" duration="205000" />
-      <workItem from="1728869472017" duration="6458000" />
+      <workItem from="1728869472017" duration="8818000" />
+      <workItem from="1728979838677" duration="435000" />
     </task>
     <task id="LOCAL-00001" summary="feat: added rest_framework.authtoken and profiles_api in installed_apps">
       <option name="closed" value="true" />
@@ -112,7 +111,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728879171553</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: Add HelloApiView, url">
+      <option name="closed" value="true" />
+      <created>1728881257453</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728881257453</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +143,7 @@
     <MESSAGE value="fix: text pre-commit" />
     <MESSAGE value="feat: added UserProfileManager/AUTH_USER_MODE in settings.py" />
     <MESSAGE value="feat: added UserProfileManager/AUTH_USER_MODE in settings.py/ UserProfile register in admin.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: added UserProfileManager/AUTH_USER_MODE in settings.py/ UserProfile register in admin.py" />
+    <MESSAGE value="feat: Add HelloApiView, url" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Add HelloApiView, url" />
   </component>
 </project>
