@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce7298f4-0950-4b24-bbec-50c0bf448ffa" name="Changes" comment="feat: Add HeloSerializer">
+    <list default="true" id="ce7298f4-0950-4b24-bbec-50c0bf448ffa" name="Changes" comment="feat: Add post for HelloApiView">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profiles_api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/profiles_api/views.py" afterDir="false" />
     </list>
@@ -77,7 +77,7 @@
       <workItem from="1728617298836" duration="77000" />
       <workItem from="1728643552114" duration="205000" />
       <workItem from="1728869472017" duration="8818000" />
-      <workItem from="1728979838677" duration="1385000" />
+      <workItem from="1728979838677" duration="2096000" />
     </task>
     <task id="LOCAL-00001" summary="feat: added rest_framework.authtoken and profiles_api in installed_apps">
       <option name="closed" value="true" />
@@ -127,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728980378309</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat: Add post for HelloApiView">
+      <option name="closed" value="true" />
+      <created>1728981372256</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1728981372256</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +161,7 @@
     <MESSAGE value="feat: added UserProfileManager/AUTH_USER_MODE in settings.py/ UserProfile register in admin.py" />
     <MESSAGE value="feat: Add HelloApiView, url" />
     <MESSAGE value="feat: Add HeloSerializer" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Add HeloSerializer" />
+    <MESSAGE value="feat: Add post for HelloApiView" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Add post for HelloApiView" />
   </component>
 </project>
