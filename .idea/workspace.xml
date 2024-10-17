@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce7298f4-0950-4b24-bbec-50c0bf448ffa" name="Changes" comment="feat: Add put, patch, delete methods for HelloApiView and router">
+    <list default="true" id="ce7298f4-0950-4b24-bbec-50c0bf448ffa" name="Changes" comment="fix: Fix update bug">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profiles_api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/profiles_api/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles_api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/profiles_api/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles_api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/profiles_api/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +80,7 @@
       <workItem from="1728643552114" duration="205000" />
       <workItem from="1728869472017" duration="8818000" />
       <workItem from="1728979838677" duration="5770000" />
-      <workItem from="1729147720639" duration="2846000" />
+      <workItem from="1729147720639" duration="8140000" />
     </task>
     <task id="LOCAL-00001" summary="feat: added rest_framework.authtoken and profiles_api in installed_apps">
       <option name="closed" value="true" />
@@ -152,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729149420286</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="feat: Add UserProfileSerializer()">
+      <option name="closed" value="true" />
+      <created>1729150835317</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1729150835317</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +191,8 @@
     <MESSAGE value="feat: Add post for HelloApiView" />
     <MESSAGE value="feat: Add put, patch, delete methods for HelloApiView" />
     <MESSAGE value="feat: Add put, patch, delete methods for HelloApiView and router" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Add put, patch, delete methods for HelloApiView and router" />
+    <MESSAGE value="feat: Add UserProfileSerializer()" />
+    <MESSAGE value="fix: Fix update bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: Fix update bug" />
   </component>
 </project>

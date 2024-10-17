@@ -7,7 +7,10 @@ from rest_framework.views import (
     Response,
 )
 
-from profiles_api import serializers
+from profiles_api import (
+    models,
+    serializers,
+)
 
 
 class HelloApiView(APIView):
@@ -129,3 +132,10 @@ class HelloViewSet(viewsets.ViewSet):
                 'http_method': request.method,
             },
         )
+
+
+class UserProfileViewSet(viewsets.ModelViewSet):
+    """Handle creating and updating profiles."""
+
+    serializer_class = serializers.UserProfileSerializer
+    queryset = models.UserProfile.objects.all()
