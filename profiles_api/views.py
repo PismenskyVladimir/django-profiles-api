@@ -1,4 +1,7 @@
-from rest_framework import status
+from rest_framework import (
+    status,
+    viewsets,
+)
 from rest_framework.views import (
     APIView,
     Response,
@@ -53,3 +56,76 @@ class HelloApiView(APIView):
         """Delete an object."""
 
         return Response({'message': 'DELETE'})
+
+
+class HelloViewSet(viewsets.ViewSet):
+    """Test API ViewSet."""
+
+    serializer_class = serializers.HelloSerializer
+
+    def list_item(self, request):
+        """Return a hello  message."""
+
+        a_viewset = [
+            'Uses actions (list, create, retrieve, update, partial_update, destroy',
+            'Automatically maps to URLs using Routers',
+            'Providdes more functionality with less code',
+        ]
+
+        return Response({'message': 'Hello', 'a_viewset': a_viewset})
+
+    def create(self, request):
+        """Create a new hello message."""
+
+        serializer = self.serializer_class(data=request.data)
+
+        if serializer.is_valid():
+            name = serializer.validated_data.get('name')
+            message = f'Hello {name}'
+
+            return Response({'message': message})
+        else:
+            return Response(
+                serializer.errors,
+                status=status.HTTP_400_BAD_REQUEST,
+            )
+
+    def retrieve(self, request, pk=None):
+        """Handle getting an object by its ID."""
+
+        return Response(
+            {
+                'view_method': 'retrieve()',
+                'http_method': request.method,
+            },
+        )
+
+    def update(self, request, pk=None):
+        """Handle updating an object by its ID."""
+
+        return Response(
+            {
+                'view_method': 'update()',
+                'http_method': request.method,
+            },
+        )
+
+    def partial_update(self, request, pk=None):
+        """Handle updating part an object by its ID."""
+
+        return Response(
+            {
+                'view_method': 'partial_update()',
+                'http_method': request.method,
+            },
+        )
+
+    def destroy(self, request):
+        """Destroy an object by its ID."""
+
+        return Response(
+            {
+                'view_method': 'destroy()',
+                'http_method': request.method,
+            },
+        )
