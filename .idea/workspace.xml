@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce7298f4-0950-4b24-bbec-50c0bf448ffa" name="Changes" comment="feat: Add UpdateOwnProfile()">
+    <list default="true" id="ce7298f4-0950-4b24-bbec-50c0bf448ffa" name="Changes" comment="feat: Add permissions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profiles_api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/profiles_api/views.py" afterDir="false" />
     </list>
@@ -78,7 +78,8 @@
       <workItem from="1728643552114" duration="205000" />
       <workItem from="1728869472017" duration="8818000" />
       <workItem from="1728979838677" duration="5770000" />
-      <workItem from="1729147720639" duration="11877000" />
+      <workItem from="1729147720639" duration="13330000" />
+      <workItem from="1729221217950" duration="2874000" />
     </task>
     <task id="LOCAL-00001" summary="feat: added rest_framework.authtoken and profiles_api in installed_apps">
       <option name="closed" value="true" />
@@ -176,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729164979186</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="feat: Add permissions">
+      <option name="closed" value="true" />
+      <created>1729167249553</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1729167249553</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +217,7 @@
     <MESSAGE value="feat: Add UserProfileSerializer()" />
     <MESSAGE value="fix: Fix update bug" />
     <MESSAGE value="feat: Add UpdateOwnProfile()" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Add UpdateOwnProfile()" />
+    <MESSAGE value="feat: Add permissions" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Add permissions" />
   </component>
 </project>
