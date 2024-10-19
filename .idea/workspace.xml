@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce7298f4-0950-4b24-bbec-50c0bf448ffa" name="Changes" comment="feat: Add permissions">
+    <list default="true" id="ce7298f4-0950-4b24-bbec-50c0bf448ffa" name="Changes" comment="feat: Add token auth">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles_api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/profiles_api/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles_api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/profiles_api/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +79,7 @@
       <workItem from="1728869472017" duration="8818000" />
       <workItem from="1728979838677" duration="5770000" />
       <workItem from="1729147720639" duration="13330000" />
-      <workItem from="1729221217950" duration="2874000" />
+      <workItem from="1729221217950" duration="4544000" />
     </task>
     <task id="LOCAL-00001" summary="feat: added rest_framework.authtoken and profiles_api in installed_apps">
       <option name="closed" value="true" />
@@ -185,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729167249553</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="feat: Add token auth">
+      <option name="closed" value="true" />
+      <created>1729354072003</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1729354072003</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +226,7 @@
     <MESSAGE value="fix: Fix update bug" />
     <MESSAGE value="feat: Add UpdateOwnProfile()" />
     <MESSAGE value="feat: Add permissions" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Add permissions" />
+    <MESSAGE value="feat: Add token auth" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Add token auth" />
   </component>
 </project>
